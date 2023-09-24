@@ -1,0 +1,51 @@
+#Steps used to extract primary transcripts from each proteome
+
+#Default way to do so was by OrthoFinder2 provided script
+#primary_transcripts.py
+#This however did not work in all cases
+#These cases were done manually
+
+
+#Manually had to get longest isoforms
+#A_suum case
+ #Used longest.py from https://bioinformatics.stackexchange.com/questions/595/how-can-longest-isoforms-per-gene-be-extracted-from-a-fasta-file
+ #Changed   geneid = '.'.join(defline[1:].split('.')[:-1]) >>   geneid = '_'.join(defline[1:].split('_')[:-1]) 
+ #this was necessary because of the headers were split by "_"
+	cut -d -f1 A_suum.pep > A_suum_test.pep
+	python longest.py < A_suum_test > test.pep
+	rm -rf A_suum_test.py
+	mv test.pep A_suum.pep
+
+#S_carp case
+ #Previous iteration will not work properly, headers not fromatted the same way
+ #Did the same step and got only ~4000 proteins, after checking these I realized that these were proteins with isoforms
+ #To get proteins without isoforms
+		
+	grep ">" Steinernema_carpocapsae.pep | egrep -v 'L[0-9]+_[0-9]+\.[0-9]+' | sed 's/>//g' | cut -d " " -f1 > isoformless.txt
+	seqkit grep -f isoformless.txt Steinernema_carpocapsae.pep > primary_transcripts/Steinernema_carpocapsae.pep
+	grep ">" Steinernema_carpocapsae.pep | egrep 'L[0-9]+_[0-9]+\.[0-9]+' | sed 's/>//g' | cut -d " " -f1 > isoform.txt	
+	seqkit grep -f isoform.txt Steinernema_carpocapsae.pep > Steinernema_carpocapsae_isoforms.pep
+	python longest.py Steinernema_carpocapsae_isoforms.pep >> primary_transcripts/Steinernema_carpocapsae.pep	
+
+#C_ana
+	Just like previously with S_carp
+
+#M_cap
+
+	sed 's/_R[0-9]*//g' Montipora_capitata.pep > Montipora_capitata_rm.pep
+        seqkit rmdup Montipora_capitata_rm.pep > Montipora_capitata_rm_final.pep
+        [INFO] 4079 duplicated records removed
+
+#P_min
+	sed 's/\[[^][]*\]//g' Patiria_miniata.pep | sed 's/ /|/g' | sed 's/isoform|X/isoform_X/g' | sed 's/|$//g' > Patiria_miniata_formated.pep
+	python longest.py Patiria_miniata_formated.pep > primary_transcripts/Patiria_miniata.pep #Changed separator to "X"
+	
+
+#Pdum/Mfra/Ttra/all evigene generated ones
+	grep ">" Platynereis_dumerilii.pep | grep -v "Noncode" | cut -d " " -f1  | sed "s/>//g"> pdum_list
+	seqkit grep -f pdum_list Platynereis_dumerilii.pep > primary_transcripts/Platynereis_dumerilii.pep
+
+#Hsap/Drer/Mmus contained '*' within frame for some reason, so I had to take a different approach
+	agat_sp_keep_longest_isoform.pl -g Danio_rerio.GRCz11.104.chr.gff3 -o Danio_rerio_longest_isoform.gff3	#extracting longest isoform/feature
+	agat_sp_extract_sequences.pl -g Danio_rerio_longest_isoform.gff3 -f Danio_rerio.GRCz11.dna.toplevel.fa -p --cis --cfs -p --asc -o Danio_rerio.pep	#extracting sequences of longest isoforms
+	sed -e 's/>transcript:/>/g' Danio_rerio.pep | sed 's/>ENSDART[[:digit:]]* />/g' | sed 's/gene=gene://g' > Danio_rerio2.pep	#renaming headers to have gene IDs instead of transcripts IDs, easier use when building OG-exprs table

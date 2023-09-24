@@ -1,0 +1,613 @@
+IQ-TREE 2.1.4-beta COVID-edition built Jun 24 2021
+
+Partition file name: ../Orthogroups_MSA/SpTree_from_data.partitions
+Input file name: ../Orthogroups_MSA/SpTree_from_data.out
+User tree file name: ../../../../../rotl_species.nwk
+Type of analysis: ModelFinder + tree reconstruction
+Random seed number: 874409
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Bui Quang Minh, Heiko A. Schmidt, Olga Chernomor, Dominik Schrempf,
+Michael D. Woodhams, Arndt von Haeseler, and Robert Lanfear (2020)
+IQ-TREE 2: New models and efficient methods for phylogenetic inference
+in the genomic era. Mol. Biol. Evol., in press.
+https://doi.org/10.1093/molbev/msaa015
+
+To cite ModelFinder please use: 
+
+Subha Kalyaanamoorthy, Bui Quang Minh, Thomas KF Wong, Arndt von Haeseler,
+and Lars S Jermiin (2017) ModelFinder: Fast model selection for
+accurate phylogenetic estimates. Nature Methods, 14:587–589.
+https://doi.org/10.1038/nmeth.4285
+
+Since you used partition models please also cite:
+
+Olga Chernomor, Arndt von Haeseler, and Bui Quang Minh (2016)
+Terrace aware data structure for phylogenomic inference from
+supermatrices. Syst. Biol., 65:997-1008.
+https://doi.org/10.1093/sysbio/syw037
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 43 taxa with 224 partitions and 58733 total sites (10.1765% missing data)
+
+  ID  Name            Type	Seq	Site	Unique	Infor	Invar	Const
+   1  p1_OG0004955    AA	43	268	268	268	0	0
+   2  p2_OG0004965    AA	42	378	378	371	0	0
+   3  p3_OG0004981    AA	42	182	182	182	0	0
+   4  p4_OG0005212    AA	43	577	577	577	0	0
+   5  p5_OG0005214    AA	43	287	287	287	0	0
+   6  p6_OG0005216    AA	42	303	303	301	0	0
+   7  p7_OG0005240    AA	42	109	109	109	0	0
+   8  p8_OG0005311    AA	41	705	705	705	0	0
+   9  p9_OG0005317    AA	43	463	462	455	0	0
+  10  p10_OG0005321   AA	43	211	211	210	0	0
+  11  p11_OG0005332   AA	43	134	134	134	0	0
+  12  p12_OG0005341   AA	43	217	217	216	0	0
+  13  p13_OG0005352   AA	43	710	710	710	0	0
+  14  p14_OG0005357   AA	42	301	301	301	0	0
+  15  p15_OG0005363   AA	42	411	411	410	0	0
+  16  p16_OG0005369   AA	43	457	457	457	0	0
+  17  p17_OG0005449   AA	42	300	300	297	0	0
+  18  p18_OG0005451   AA	43	634	634	634	0	0
+  19  p19_OG0005453   AA	41	324	324	324	0	0
+  20  p20_OG0005456   AA	42	224	224	222	0	0
+  21  p21_OG0005489   AA	42	250	250	248	0	0
+  22  p22_OG0005492   AA	41	184	184	184	0	0
+  23  p23_OG0005501   AA	42	297	297	296	0	0
+  24  p24_OG0005511   AA	42	411	411	410	0	0
+  25  p25_OG0005517   AA	42	435	435	435	0	0
+  26  p26_OG0005526   AA	42	267	267	267	0	0
+  27  p27_OG0005530   AA	41	772	772	771	0	0
+  28  p28_OG0005547   AA	42	304	304	302	0	0
+  29  p29_OG0005554   AA	42	298	298	298	0	0
+  30  p30_OG0005567   AA	42	312	311	311	0	0
+  31  p31_OG0005612   AA	41	583	583	570	0	0
+  32  p32_OG0005656   AA	41	86	86	86	0	0
+  33  p33_OG0005658   AA	41	376	376	375	0	0
+  34  p34_OG0005663   AA	41	581	581	576	0	0
+  35  p35_OG0005669   AA	41	986	986	985	0	0
+  36  p36_OG0005672   AA	41	312	312	312	0	0
+  37  p37_OG0005675   AA	40	151	151	151	0	0
+  38  p38_OG0005694   AA	41	324	324	321	0	0
+  39  p39_OG0005702   AA	41	377	377	376	0	0
+  40  p40_OG0005719   AA	41	194	194	194	0	0
+  41  p41_OG0005720   AA	41	321	321	321	0	0
+  42  p42_OG0005724   AA	41	163	163	163	0	0
+  43  p43_OG0005730   AA	41	240	240	240	0	0
+  44  p44_OG0005745   AA	41	283	283	283	0	0
+  45  p45_OG0005748   AA	41	354	354	354	0	0
+  46  p46_OG0005749   AA	41	563	563	559	0	0
+  47  p47_OG0005754   AA	41	285	285	281	0	0
+  48  p48_OG0005761   AA	41	312	312	312	0	0
+  49  p49_OG0005762   AA	41	232	232	232	0	0
+  50  p50_OG0005769   AA	41	189	189	189	0	0
+  51  p51_OG0005777   AA	41	220	220	220	0	0
+  52  p52_OG0005780   AA	41	259	259	259	0	0
+  53  p53_OG0005788   AA	38	52	52	50	0	0
+  54  p54_OG0005795   AA	41	458	458	456	0	0
+  55  p55_OG0005799   AA	41	157	157	157	0	0
+  56  p56_OG0005817   AA	41	182	182	181	0	0
+  57  p57_OG0005825   AA	41	119	119	119	0	0
+  58  p58_OG0005878   AA	40	232	232	231	0	0
+  59  p59_OG0005880   AA	40	287	287	285	0	0
+  60  p60_OG0005884   AA	40	359	359	356	0	0
+  61  p61_OG0005893   AA	40	281	281	281	0	0
+  62  p62_OG0005902   AA	41	214	214	214	0	0
+  63  p63_OG0005903   AA	40	385	385	385	0	0
+  64  p64_OG0005904   AA	40	116	116	116	0	0
+  65  p65_OG0005908   AA	41	430	430	430	0	0
+  66  p66_OG0005928   AA	41	317	317	317	0	0
+  67  p67_OG0005929   AA	40	241	241	241	0	0
+  68  p68_OG0005931   AA	41	181	181	181	0	0
+  69  p69_OG0005944   AA	40	239	239	239	0	0
+  70  p70_OG0005948   AA	40	583	583	583	0	0
+  71  p71_OG0005951   AA	40	290	290	289	0	0
+  72  p72_OG0005955   AA	39	300	300	300	0	0
+  73  p73_OG0005963   AA	41	195	195	195	0	0
+  74  p74_OG0005968   AA	40	169	169	169	0	0
+  75  p75_OG0005978   AA	40	92	92	92	0	0
+  76  p76_OG0005989   AA	40	391	391	391	0	0
+  77  p77_OG0005993   AA	40	394	394	393	0	0
+  78  p78_OG0005994   AA	40	243	243	241	0	0
+  79  p79_OG0005996   AA	41	497	497	497	0	0
+  80  p80_OG0006008   AA	40	394	394	391	0	0
+  81  p81_OG0006011   AA	41	323	323	323	0	0
+  82  p82_OG0006012   AA	40	198	198	198	0	0
+  83  p83_OG0006014   AA	40	333	333	333	0	0
+  84  p84_OG0006018   AA	36	143	143	143	0	0
+  85  p85_OG0006024   AA	41	541	541	541	0	0
+  86  p86_OG0006027   AA	40	378	378	378	0	0
+  87  p87_OG0006076   AA	39	444	444	444	0	0
+  88  p88_OG0006079   AA	38	267	267	267	0	0
+  89  p89_OG0006094   AA	40	376	375	376	0	0
+  90  p90_OG0006098   AA	39	81	81	80	0	0
+  91  p91_OG0006108   AA	40	137	137	137	0	0
+  92  p92_OG0006119   AA	39	238	238	238	0	0
+  93  p93_OG0006120   AA	38	322	322	322	0	0
+  94  p94_OG0006121   AA	39	453	453	452	0	0
+  95  p95_OG0006125   AA	38	119	119	117	0	0
+  96  p96_OG0006142   AA	40	397	397	397	0	0
+  97  p97_OG0006143   AA	40	213	213	213	0	0
+  98  p98_OG0006146   AA	38	117	117	113	2	2
+  99  p99_OG0006148   AA	38	142	142	141	0	0
+ 100  p100_OG0006151  AA	39	288	288	288	0	0
+ 101  p101_OG0006162  AA	39	243	243	243	0	0
+ 102  p102_OG0006164  AA	39	192	192	190	0	0
+ 103  p103_OG0006165  AA	40	291	291	291	0	0
+ 104  p104_OG0006194  AA	39	97	97	97	0	0
+ 105  p105_OG0006195  AA	39	166	166	166	0	0
+ 106  p106_OG0006197  AA	39	165	165	165	0	0
+ 107  p107_OG0006201  AA	39	172	172	171	0	0
+ 108  p108_OG0006213  AA	39	289	289	289	0	0
+ 109  p109_OG0006253  AA	39	311	311	311	0	0
+ 110  p110_OG0006257  AA	38	158	158	158	0	0
+ 111  p111_OG0006261  AA	36	117	117	116	0	0
+ 112  p112_OG0006262  AA	39	193	193	193	0	0
+ 113  p113_OG0006268  AA	38	102	102	101	0	0
+ 114  p114_OG0006277  AA	38	418	418	412	0	0
+ 115  p115_OG0006279  AA	38	116	116	116	0	0
+ 116  p116_OG0006282  AA	38	361	361	361	0	0
+ 117  p117_OG0006285  AA	37	432	432	432	0	0
+ 118  p118_OG0006295  AA	38	228	228	226	0	0
+ 119  p119_OG0006311  AA	38	157	157	157	0	0
+ 120  p120_OG0006312  AA	39	533	533	533	0	0
+ 121  p121_OG0006326  AA	38	639	639	637	0	0
+ 122  p122_OG0006342  AA	38	268	268	268	0	0
+ 123  p123_OG0006344  AA	38	137	137	134	0	0
+ 124  p124_OG0006349  AA	38	520	520	519	0	0
+ 125  p125_OG0006351  AA	38	339	339	339	0	0
+ 126  p126_OG0006352  AA	39	306	306	306	0	0
+ 127  p127_OG0006356  AA	38	633	633	631	0	0
+ 128  p128_OG0006357  AA	38	167	167	167	0	0
+ 129  p129_OG0006360  AA	39	148	148	148	0	0
+ 130  p130_OG0006363  AA	38	152	152	151	0	0
+ 131  p131_OG0006367  AA	38	116	116	114	0	0
+ 132  p132_OG0006379  AA	38	181	181	177	0	0
+ 133  p133_OG0006382  AA	38	140	140	138	0	0
+ 134  p134_OG0006439  AA	37	114	114	114	0	0
+ 135  p135_OG0006440  AA	38	153	153	153	0	0
+ 136  p136_OG0006449  AA	36	570	570	565	0	0
+ 137  p137_OG0006451  AA	37	154	154	154	0	0
+ 138  p138_OG0006454  AA	38	144	144	144	0	0
+ 139  p139_OG0006463  AA	37	109	109	109	0	0
+ 140  p140_OG0006467  AA	38	132	132	132	0	0
+ 141  p141_OG0006473  AA	37	197	197	197	0	0
+ 142  p142_OG0006478  AA	37	213	213	207	0	0
+ 143  p143_OG0006492  AA	37	250	250	249	0	0
+ 144  p144_OG0006494  AA	38	157	157	157	0	0
+ 145  p145_OG0006496  AA	37	235	235	227	0	0
+ 146  p146_OG0006497  AA	36	516	516	515	0	0
+ 147  p147_OG0006502  AA	37	209	209	209	0	0
+ 148  p148_OG0006503  AA	36	343	343	336	0	0
+ 149  p149_OG0006507  AA	37	178	178	176	0	0
+ 150  p150_OG0006523  AA	38	217	217	217	0	0
+ 151  p151_OG0006525  AA	36	142	142	141	0	0
+ 152  p152_OG0006621  AA	37	334	334	334	0	0
+ 153  p153_OG0006622  AA	37	290	290	290	0	0
+ 154  p154_OG0006624  AA	36	208	208	208	0	0
+ 155  p155_OG0006634  AA	35	84	84	81	0	0
+ 156  p156_OG0006637  AA	36	117	117	116	0	0
+ 157  p157_OG0006639  AA	37	94	94	94	0	0
+ 158  p158_OG0006646  AA	35	191	191	185	0	0
+ 159  p159_OG0006657  AA	36	304	304	304	0	0
+ 160  p160_OG0006661  AA	36	268	268	267	0	0
+ 161  p161_OG0006674  AA	37	189	189	189	0	0
+ 162  p162_OG0006686  AA	35	180	180	180	0	0
+ 163  p163_OG0006699  AA	36	225	225	221	0	0
+ 164  p164_OG0006747  AA	36	212	212	212	0	0
+ 165  p165_OG0006749  AA	35	100	100	100	0	0
+ 166  p166_OG0006750  AA	35	142	142	142	0	0
+ 167  p167_OG0006753  AA	35	121	121	121	0	0
+ 168  p168_OG0006756  AA	36	273	273	273	0	0
+ 169  p169_OG0006760  AA	35	193	193	193	0	0
+ 170  p170_OG0006761  AA	35	89	89	89	0	0
+ 171  p171_OG0006764  AA	35	151	151	151	0	0
+ 172  p172_OG0006765  AA	35	207	207	206	0	0
+ 173  p173_OG0006770  AA	35	154	154	154	0	0
+ 174  p174_OG0006774  AA	34	115	115	113	0	0
+ 175  p175_OG0006779  AA	35	143	143	143	0	0
+ 176  p176_OG0006780  AA	35	340	340	340	0	0
+ 177  p177_OG0006785  AA	35	177	177	176	0	0
+ 178  p178_OG0006788  AA	36	143	143	143	0	0
+ 179  p179_OG0006790  AA	35	378	378	378	0	0
+ 180  p180_OG0006792  AA	35	209	209	209	0	0
+ 181  p181_OG0006796  AA	36	161	161	161	0	0
+ 182  p182_OG0006798  AA	36	331	331	331	0	0
+ 183  p183_OG0006801  AA	35	263	263	262	0	0
+ 184  p184_OG0006810  AA	36	121	121	121	0	0
+ 185  p185_OG0006884  AA	35	143	143	143	0	0
+ 186  p186_OG0006892  AA	33	149	149	149	0	0
+ 187  p187_OG0006893  AA	35	218	218	218	0	0
+ 188  p188_OG0006894  AA	35	93	93	93	0	0
+ 189  p189_OG0006896  AA	34	422	422	421	0	0
+ 190  p190_OG0006897  AA	34	50	50	50	0	0
+ 191  p191_OG0006899  AA	35	335	335	335	0	0
+ 192  p192_OG0006903  AA	33	271	271	265	0	0
+ 193  p193_OG0006914  AA	34	188	188	188	0	0
+ 194  p194_OG0006917  AA	34	191	191	191	0	0
+ 195  p195_OG0006919  AA	34	417	417	417	0	0
+ 196  p196_OG0006921  AA	34	276	276	276	0	0
+ 197  p197_OG0006926  AA	35	167	167	167	0	0
+ 198  p198_OG0006928  AA	34	251	251	251	0	0
+ 199  p199_OG0006955  AA	34	190	190	190	0	0
+ 200  p200_OG0006989  AA	34	264	264	264	0	0
+ 201  p201_OG0007046  AA	34	150	150	150	0	0
+ 202  p202_OG0007048  AA	33	103	103	102	0	0
+ 203  p203_OG0007058  AA	33	282	282	282	0	0
+ 204  p204_OG0007061  AA	33	467	467	465	0	0
+ 205  p205_OG0007062  AA	34	154	154	154	0	0
+ 206  p206_OG0007066  AA	34	61	61	61	0	0
+ 207  p207_OG0007086  AA	33	125	125	125	0	0
+ 208  p208_OG0007098  AA	33	143	143	143	0	0
+ 209  p209_OG0007175  AA	33	427	427	427	0	0
+ 210  p210_OG0007176  AA	33	156	156	156	0	0
+ 211  p211_OG0007190  AA	33	253	253	253	0	0
+ 212  p212_OG0007192  AA	33	182	181	182	0	0
+ 213  p213_OG0007205  AA	33	81	81	81	0	0
+ 214  p214_OG0007250  AA	33	282	282	282	0	0
+ 215  p215_OG0007258  AA	33	148	148	148	0	0
+ 216  p216_OG0007331  AA	32	127	127	127	0	0
+ 217  p217_OG0007339  AA	32	208	208	208	0	0
+ 218  p218_OG0007346  AA	32	181	181	181	0	0
+ 219  p219_OG0007354  AA	32	307	307	307	0	0
+ 220  p220_OG0007355  AA	32	121	121	121	0	0
+ 221  p221_OG0007356  AA	32	188	188	188	0	0
+ 222  p222_OG0007365  AA	32	208	208	208	0	0
+ 223  p223_OG0007396  AA	32	157	157	157	0	0
+ 224  p224_OG0007413  AA	32	146	146	146	0	0
+
+Column meanings:
+  Unique: Number of unique site patterns
+  Infor:  Number of parsimony-informative sites
+  Invar:  Number of invariant sites
+  Const:  Number of constant sites (can be subset of invariant sites)
+
+SUBSTITUTION PROCESS
+--------------------
+
+Edge-linked-proportional partition model with separate substitution models and separate rates across sites
+
+  ID  Model           Speed  Parameters
+   1  WAG            0.7664  WAG
+   2  WAG            0.5253  WAG
+   3  WAG            0.4042  WAG
+   4  WAG            0.7613  WAG
+   5  WAG            1.2211  WAG
+   6  WAG            0.6296  WAG
+   7  WAG            0.6777  WAG
+   8  WAG            0.8682  WAG
+   9  WAG            0.5999  WAG
+  10  WAG            0.6702  WAG
+  11  WAG            0.9864  WAG
+  12  WAG            1.1197  WAG
+  13  WAG            1.0024  WAG
+  14  WAG            0.9959  WAG
+  15  WAG            0.9302  WAG
+  16  WAG            0.8881  WAG
+  17  WAG            0.9599  WAG
+  18  WAG            0.7953  WAG
+  19  WAG            1.0782  WAG
+  20  WAG            1.3425  WAG
+  21  WAG            0.7510  WAG
+  22  WAG            0.5654  WAG
+  23  WAG            0.6332  WAG
+  24  WAG            1.0944  WAG
+  25  WAG            1.2383  WAG
+  26  WAG            1.3176  WAG
+  27  WAG            1.0353  WAG
+  28  WAG            1.1355  WAG
+  29  WAG            1.0238  WAG
+  30  WAG            0.6700  WAG
+  31  WAG            0.9524  WAG
+  32  WAG            1.0529  WAG
+  33  WAG            0.9702  WAG
+  34  WAG            0.7453  WAG
+  35  WAG            0.8524  WAG
+  36  WAG            0.9393  WAG
+  37  WAG            0.8601  WAG
+  38  WAG            0.6567  WAG
+  39  WAG            1.3007  WAG
+  40  WAG            0.7582  WAG
+  41  WAG            0.8284  WAG
+  42  WAG            0.7364  WAG
+  43  WAG            1.0492  WAG
+  44  WAG            1.0648  WAG
+  45  WAG            1.0577  WAG
+  46  WAG            0.6123  WAG
+  47  WAG            0.5122  WAG
+  48  WAG            0.4775  WAG
+  49  WAG            0.7318  WAG
+  50  WAG            0.6446  WAG
+  51  WAG            0.8193  WAG
+  52  WAG            1.1016  WAG
+  53  WAG            0.3843  WAG
+  54  WAG            0.9722  WAG
+  55  WAG            0.7992  WAG
+  56  WAG            0.5700  WAG
+  57  WAG            1.0305  WAG
+  58  WAG            0.3720  WAG
+  59  WAG            0.6304  WAG
+  60  WAG            0.8421  WAG
+  61  WAG            1.0892  WAG
+  62  WAG            0.9734  WAG
+  63  WAG            0.8064  WAG
+  64  WAG            0.6394  WAG
+  65  WAG            1.1358  WAG
+  66  WAG            1.1605  WAG
+  67  WAG            1.2384  WAG
+  68  WAG            0.6484  WAG
+  69  WAG            1.1185  WAG
+  70  WAG            1.4860  WAG
+  71  WAG            0.7960  WAG
+  72  WAG            1.1998  WAG
+  73  WAG            0.5898  WAG
+  74  WAG            1.0304  WAG
+  75  WAG            0.4411  WAG
+  76  WAG            1.0187  WAG
+  77  WAG            0.9732  WAG
+  78  WAG            0.6221  WAG
+  79  WAG            0.7293  WAG
+  80  WAG            0.9923  WAG
+  81  WAG            1.0789  WAG
+  82  WAG            1.1178  WAG
+  83  WAG            0.9031  WAG
+  84  WAG            1.2765  WAG
+  85  WAG            0.9309  WAG
+  86  WAG            1.3427  WAG
+  87  WAG            1.0627  WAG
+  88  WAG            1.2750  WAG
+  89  WAG            0.5547  WAG
+  90  WAG            0.4992  WAG
+  91  WAG            0.8871  WAG
+  92  WAG            0.8377  WAG
+  93  WAG            0.8982  WAG
+  94  WAG            1.5129  WAG
+  95  WAG            0.8319  WAG
+  96  WAG            1.4013  WAG
+  97  WAG            0.5867  WAG
+  98  WAG            0.6901  WAG
+  99  WAG            0.8893  WAG
+ 100  WAG            1.2206  WAG
+ 101  WAG            0.8240  WAG
+ 102  WAG            0.8016  WAG
+ 103  WAG            0.6297  WAG
+ 104  WAG            1.0531  WAG
+ 105  WAG            1.3178  WAG
+ 106  WAG            0.9307  WAG
+ 107  WAG            0.7410  WAG
+ 108  WAG            1.1778  WAG
+ 109  WAG            0.9364  WAG
+ 110  WAG            1.2685  WAG
+ 111  WAG            0.7685  WAG
+ 112  WAG            0.5717  WAG
+ 113  WAG            1.0519  WAG
+ 114  WAG            1.0517  WAG
+ 115  WAG            0.7826  WAG
+ 116  WAG            1.5019  WAG
+ 117  WAG            1.0146  WAG
+ 118  WAG            0.9802  WAG
+ 119  WAG            0.6928  WAG
+ 120  WAG            1.0793  WAG
+ 121  WAG            0.9423  WAG
+ 122  WAG            1.2374  WAG
+ 123  WAG            0.7650  WAG
+ 124  WAG            1.4389  WAG
+ 125  WAG            0.9184  WAG
+ 126  WAG            1.0185  WAG
+ 127  WAG            1.0132  WAG
+ 128  WAG            1.0518  WAG
+ 129  WAG            0.7589  WAG
+ 130  WAG            1.1279  WAG
+ 131  WAG            0.9849  WAG
+ 132  WAG            1.0263  WAG
+ 133  WAG            1.0059  WAG
+ 134  WAG            0.5793  WAG
+ 135  WAG            1.0425  WAG
+ 136  WAG            1.2303  WAG
+ 137  WAG            0.9206  WAG
+ 138  WAG            0.7478  WAG
+ 139  WAG            1.1227  WAG
+ 140  WAG            0.8202  WAG
+ 141  WAG            1.0692  WAG
+ 142  WAG            0.7899  WAG
+ 143  WAG            0.6565  WAG
+ 144  WAG            1.1305  WAG
+ 145  WAG            0.8470  WAG
+ 146  WAG            0.9674  WAG
+ 147  WAG            1.2395  WAG
+ 148  WAG            0.9596  WAG
+ 149  WAG            0.8133  WAG
+ 150  WAG            0.9431  WAG
+ 151  WAG            0.9881  WAG
+ 152  WAG            1.3007  WAG
+ 153  WAG            0.9921  WAG
+ 154  WAG            1.4031  WAG
+ 155  WAG            0.7492  WAG
+ 156  WAG            1.4220  WAG
+ 157  WAG            0.9618  WAG
+ 158  WAG            1.5948  WAG
+ 159  WAG            1.3344  WAG
+ 160  WAG            0.9783  WAG
+ 161  WAG            0.6686  WAG
+ 162  WAG            0.8497  WAG
+ 163  WAG            0.8453  WAG
+ 164  WAG            0.6825  WAG
+ 165  WAG            1.2437  WAG
+ 166  WAG            0.9380  WAG
+ 167  WAG            0.9468  WAG
+ 168  WAG            0.7782  WAG
+ 169  WAG            0.9884  WAG
+ 170  WAG            0.7340  WAG
+ 171  WAG            1.0389  WAG
+ 172  WAG            1.1547  WAG
+ 173  WAG            0.8619  WAG
+ 174  WAG            0.7518  WAG
+ 175  WAG            0.9093  WAG
+ 176  WAG            1.3878  WAG
+ 177  WAG            1.1531  WAG
+ 178  WAG            1.4518  WAG
+ 179  WAG            1.7540  WAG
+ 180  WAG            1.0910  WAG
+ 181  WAG            1.0791  WAG
+ 182  WAG            1.5988  WAG
+ 183  WAG            1.1975  WAG
+ 184  WAG            0.9574  WAG
+ 185  WAG            0.9007  WAG
+ 186  WAG            1.4737  WAG
+ 187  WAG            1.0586  WAG
+ 188  WAG            0.6981  WAG
+ 189  WAG            1.4920  WAG
+ 190  WAG            0.5453  WAG
+ 191  WAG            0.9032  WAG
+ 192  WAG            1.1451  WAG
+ 193  WAG            1.3331  WAG
+ 194  WAG            1.2827  WAG
+ 195  WAG            1.9664  WAG
+ 196  WAG            1.2421  WAG
+ 197  WAG            1.0167  WAG
+ 198  WAG            0.9393  WAG
+ 199  WAG            1.0988  WAG
+ 200  WAG            1.7660  WAG
+ 201  WAG            1.4436  WAG
+ 202  WAG            0.8364  WAG
+ 203  WAG            1.1252  WAG
+ 204  WAG            1.0188  WAG
+ 205  WAG            1.1357  WAG
+ 206  WAG            0.5957  WAG
+ 207  WAG            1.3868  WAG
+ 208  WAG            1.3796  WAG
+ 209  WAG            0.8910  WAG
+ 210  WAG            1.2847  WAG
+ 211  WAG            1.4514  WAG
+ 212  WAG            0.9302  WAG
+ 213  WAG            0.8842  WAG
+ 214  WAG            1.0162  WAG
+ 215  WAG            1.2013  WAG
+ 216  WAG            0.8510  WAG
+ 217  WAG            1.5748  WAG
+ 218  WAG            0.8487  WAG
+ 219  WAG            1.1783  WAG
+ 220  WAG            1.1004  WAG
+ 221  WAG            1.2440  WAG
+ 222  WAG            0.7386  WAG
+ 223  WAG            1.1040  WAG
+ 224  WAG            1.0470  WAG
+
+USER TREE
+---------
+
+Log-likelihood of the tree: -2713963.9105 (s.e. 4231.8706)
+Unconstrained log-likelihood (without tree): -335246.2723
+Number of free parameters (#branches + #model parameters): 306
+Akaike information criterion (AIC) score: 5428539.8209
+Corrected Akaike information criterion (AICc) score: 5428543.0367
+Bayesian information criterion (BIC) score: 5431287.9326
+
+Total tree length (sum of branch lengths): 16.2318
+Sum of internal branch lengths: 5.1054 (31.4533% of tree length)
+
+NOTE: Tree is UNROOTED although outgroup taxon 'Anopheles_stephensi' is drawn at root
+
++----------Anopheles_stephensi
+|
+|                                        +------------Ascaris_suum
+|                      +-----------------|
+|                      |                 |               +------Caenorhabditis_angaria
+|                      |                 |  +------------|
+|                      |                 |  |            +-----Caenorhabditis_elegans
+|                      |                 +--|
+|                      |                    |         +----Steinernema_carpocapsae
+|                      |                    +---------|
+|                      |                              +----Steinernema_feltiae
+|                   +--|
+|                   |  +-------------Priapulus_caudatus
+|                +--|
+|                |  |                                    +--Bos_taurus
+|                |  |                                 +--|
+|                |  |                                 |  +--Capra_hircus
+|                |  |                              +--|
+|                |  |                              |  +--Sus_scrofa
+|                |  |                          +---|
+|                |  |                          |   |     +--Homo_sapiens
+|                |  |                          |   |  +--|
+|                |  |                          |   |  |  +--Macaca_mulatta
+|                |  |                          |   +--|
+|                |  |                          |      +--Mus_musculus
+|                |  |                       +--|
+|                |  |                       |  +----Gallus_gallus
+|                |  |                    +--|
+|                |  |                    |  +-----Xenopus_tropicalis
+|                |  |              +-----|
+|                |  |              |     +------Danio_rerio
+|                |  |           +--|
+|                |  |           |  +------------------Ciona_intestinalis
+|                |  |        +--|
+|                |  |        |  +-----------Branchiostoma_lanceolatum
+|                |  |     +--|
+|                |  |     |  |                  +--Heliocidaris_erythrogramma
+|                |  |     |  |               +--|
+|                |  |     |  |               |  +--Heliocidaris_tuberculata
+|                |  |     |  |            +--|
+|                |  |     |  |            |  +--Lytechinus_variegatus
+|                |  |     |  |    +-------|
+|                |  |     |  |    |       |  +--Mesocentrotus_franciscanus
+|                |  |     |  |    |       +--|
+|                |  |     |  |    |          +--Paracentrotus_lividus
+|                |  |     |  +----|
+|                |  |     |       +-------Patiria_miniata
+|                |  |  +--|
+|                |  |  |  |  +--------------------------Mnemiopsis_leidyi
+|                |  |  |  +--|
+|                |  |  |     |     +-------Montipora_capitata
+|                |  |  |     +-----|
+|                |  |  |           +--------Nematostella_vectensis
+|                |  +--|
+|                |     |     +-----------Crassostrea_gigas
+|                |     |  +--|
+|                |     |  |  +-----------Terebratalia_transversa
+|                |     +--|
+|                |        +-----------Platynereis_dumerilii
+|          +-----|
+|          |     +------------------------Hypsibius_dujardini
+|       +--|
+|       |  +----------Blattella_germanica
+|    +--|
+|    |  +-----------Tribolium_castaneum
++----|
+|    +-------------Bombyx_mori
+|
+|                   +--Drosophila_ananassae
+|                +--|
+|                |  |     +--Drosophila_erecta
+|                |  |  +--|
+|                |  |  |  +--Drosophila_yakuba
+|                |  +--|
+|                |     |  +--Drosophila_melanogaster
+|                |     +--|
+|                |        +--Drosophila_simulans
+|             +--|
+|             |  +--Drosophila_persimilis
+|          +--|
+|          |  +---Drosophila_willistoni
++----------|
+           |  +--Drosophila_mojavensis
+           +--|
+              +--Drosophila_virilis
+
+Tree in newick format:
+
+(Anopheles_stephensi:0.4226661049,(((((((Ascaris_suum:0.4878027620,((Caenorhabditis_angaria:0.2918544505,Caenorhabditis_elegans:0.2514850792):0.4859449356,(Steinernema_carpocapsae:0.2104409921,Steinernema_feltiae:0.2159367922):0.3861698717):0.0555023103):0.6987577475,Priapulus_caudatus:0.5273230680):0.0322332194,(((((((((((Bos_taurus:0.0204151570,Capra_hircus:0.0177292887):0.0325097977,Sus_scrofa:0.0541267322):0.0211988559,((Homo_sapiens:0.0144740010,Macaca_mulatta:0.0335145865):0.0364638460,Mus_musculus:0.0968353793):0.0090579336):0.1589957788,Gallus_gallus:0.1918592331):0.0740639824,Xenopus_tropicalis:0.2324129439):0.0867543727,Danio_rerio:0.2773898543):0.2493787756,Ciona_intestinalis:0.7280066791):0.0706510282,Branchiostoma_lanceolatum:0.4522609309):0.0534839322,((((Heliocidaris_erythrogramma:0.0232427965,Heliocidaris_tuberculata:0.0192021973):0.0362263827,Lytechinus_variegatus:0.0927043912):0.0035397866,(Mesocentrotus_franciscanus:0.0629437158,Paracentrotus_lividus:0.0848678806):0.0037554400):0.3209956847,Patiria_miniata:0.3132609076):0.1973108071):0.0440833834,(Mnemiopsis_leidyi:1.0134438413,(Montipora_capitata:0.3341479879,Nematostella_vectensis:0.3392877277):0.2329720143):0.1337879557):0.0693938431,((Crassostrea_gigas:0.4495469001,Terebratalia_transversa:0.4503436908):0.0522914418,Platynereis_dumerilii:0.4745006539):0.0969092412):0.0711302887):0.0906841219,Hypsibius_dujardini:0.9520536091):0.2255714203,Blattella_germanica:0.4220795069):0.0805145859,Tribolium_castaneum:0.4570560813):0.0698595047,Bombyx_mori:0.5364910070):0.2001528843,((((Drosophila_ananassae:0.0950818391,((Drosophila_erecta:0.0211938535,Drosophila_yakuba:0.0199446873):0.0080214327,(Drosophila_melanogaster:0.0139098495,Drosophila_simulans:0.0121339454):0.0177085826):0.0754866845):0.0483860438,Drosophila_persimilis:0.1145607714):0.0405925906,Drosophila_willistoni:0.1491262316):0.0338972213,(Drosophila_mojavensis:0.0855939760,Drosophila_virilis:0.0631390741):0.0757530179):0.4252526781);
+
+TIME STAMP
+----------
+
+Date and time: Thu Nov  4 07:34:42 2021
+Total CPU time used: 107.428 seconds (0h:1m:47s)
+Total wall-clock time used: 107.877 seconds (0h:1m:47s)
+

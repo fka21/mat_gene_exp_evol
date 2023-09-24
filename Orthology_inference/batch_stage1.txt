@@ -1,0 +1,143 @@
+Ascaris_suum_1	Illumina HiSeq 2000	single
+Ascaris_suum_2	Illumina HiSeq 2000	single
+Ascaris_suum_3	Illumina HiSeq 2000	single
+Anopheles_stephensi_1	Illumina Genome Analyzer II	single
+Anopheles_stephensi_2	Illumina Genome Analyzer II	single
+Branchiostoma_lanceolatum_1	Illumina HiSeq 2000	paired
+Branchiostoma_lanceolatum_2	Illumina HiSeq 2000	paired
+Bos_taurus_1	Illumina HiSeq 2000	single
+Bos_taurus_2	Illumina HiSeq 2000	single
+Bos_taurus_3	Illumina HiSeq 2000	single
+Bos_taurus_4	Illumina HiSeq 2000	single
+Bombyx_mori_1	HiSeq X Ten	paired
+Bombyx_mori_2	HiSeq X Ten	paired
+Bombyx_mori_3	HiSeq X Ten	paired
+Blattella_germanica_1	Illumina MiSeq	paired
+Blattella_germanica_2	Illumina MiSeq	paired
+Caenorhabditis_angaria_1	NextSeq 500	paired
+Caenorhabditis_angaria_2	NextSeq 500	paired
+Caenorhabditis_angaria_3	NextSeq 500	paired
+Caenorhabditis_angaria_4	NextSeq 500	paired
+Caenorhabditis_elegans_1	NextSeq 500	paired
+Caenorhabditis_elegans_2	NextSeq 500	paired
+Caenorhabditis_elegans_3	NextSeq 500	paired
+Caenorhabditis_elegans_4	NextSeq 500	paired
+Crassostrea_gigas_1	Illumina HiSeq 2500	single
+Crassostrea_gigas_2	Illumina HiSeq 2500	single
+Capra_hircus_1	HiSeq X Ten	paired
+Capra_hircus_2	HiSeq X Ten	paired
+Capra_hircus_3	HiSeq X Ten	paired
+Drosophila_ananassae_1	Illumina HiSeq 2000	paired
+Drosophila_ananassae_2	Illumina HiSeq 2000	paired
+Drosophila_ananassae_3	Illumina HiSeq 2000	paired
+Drosophila_erecta_1	Illumina HiSeq 2000	paired
+Drosophila_erecta_2	Illumina HiSeq 2000	paired
+Drosophila_erecta_3	Illumina HiSeq 2000	paired
+Drosophila_melanogaster_1	Illumina Genome Analyzer II	single
+Drosophila_melanogaster_2	Illumina Genome Analyzer II	single
+Drosophila_melanogaster_3	Illumina Genome Analyzer II	single
+Drosophila_melanogaster_4	Illumina Genome Analyzer II	single
+Drosophila_melanogaster_5	Illumina Genome Analyzer II	single
+Drosophila_mojavensis_1	Illumina HiSeq 2000	paired
+Drosophila_mojavensis_2	Illumina HiSeq 2000	paired
+Drosophila_mojavensis_3	Illumina HiSeq 2000	paired
+Drosophila_mojavensis_4	Illumina HiSeq 2000	paired
+Drosophila_mojavensis_5	Illumina HiSeq 2000	paired
+Drosophila_mojavensis_6	Illumina HiSeq 2000	paired
+Drosophila_persimilis_1	Illumina HiSeq 2000	paired
+Drosophila_persimilis_2	Illumina HiSeq 2000	paired
+Drosophila_persimilis_3	Illumina HiSeq 2000	paired
+Drosophila_persimilis_4	Illumina HiSeq 2000	paired
+Drosophila_persimilis_5	Illumina HiSeq 2000	paired
+Drosophila_persimilis_6	Illumina HiSeq 2000	paired
+Drosophila_simulans_1	Illumina HiSeq 2000	paired
+Drosophila_simulans_2	Illumina HiSeq 2000	paired
+Drosophila_simulans_3	Illumina HiSeq 2000	paired
+Drosophila_virilis_1	Illumina HiSeq 2000	paired
+Drosophila_virilis_2	Illumina HiSeq 2000	paired
+Drosophila_virilis_3	Illumina HiSeq 2000	paired
+Drosophila_virilis_4	Illumina HiSeq 2000	paired
+Drosophila_virilis_5	Illumina HiSeq 2000	paired
+Drosophila_virilis_6	Illumina HiSeq 2000	paired
+Drosophila_virilis_7	Illumina HiSeq 2000	paired
+Drosophila_willistoni_1	Illumina HiSeq 2000	paired
+Drosophila_willistoni_2	Illumina HiSeq 2000	paired
+Drosophila_willistoni_3	Illumina HiSeq 2000	paired
+Drosophila_willistoni_4	Illumina HiSeq 2000	paired
+Drosophila_willistoni_5	Illumina HiSeq 2000	paired
+Drosophila_willistoni_6	Illumina HiSeq 2000	paired
+Drosophila_yakuba_1	Illumina HiSeq 2000	paired
+Drosophila_yakuba_2	Illumina HiSeq 2000	paired
+Danio_rerio_1	HiSeq X Ten	paired
+Danio_rerio_2	HiSeq X Ten	paired
+Danio_rerio_3	HiSeq X Ten	paired
+Homo_sapiens_1	Illumina HiSeq 2000	paired
+Homo_sapiens_2	Illumina HiSeq 2000	paired
+Macaca_mulatta_1	Illumina HiSeq 2500	paired
+Macaca_mulatta_2	Illumina HiSeq 2500	paired
+Macaca_mulatta_3	Illumina HiSeq 2500	paired
+Mus_musculus_1	Illumina HiSeq 2000	paired
+Mus_musculus_2	Illumina HiSeq 2000	paired
+Mus_musculus_3	Illumina HiSeq 2000	paired
+Nematostella_vectensis_1	Illumina HiSeq 2000	single
+Nematostella_vectensis_2	Illumina HiSeq 2000	single
+Gallus_gallus_1	NextSeq 500	paired
+Gallus_gallus_2	NextSeq 500	paired
+Gallus_gallus_3	NextSeq 500	paired
+Tribolium_castaneum_1	Illumina HiSeq 2000	single
+Tribolium_castaneum_2	Illumina HiSeq 2000	single
+Steinernema_carpocapsae_1	NextSeq 500	paired
+Steinernema_carpocapsae_2	NextSeq 500	paired
+Steinernema_carpocapsae_3	NextSeq 500	paired
+Steinernema_carpocapsae_4	NextSeq 500	paired
+Steinernema_feltiae_1	NextSeq 500	paired
+Steinernema_feltiae_2	NextSeq 500	paired
+Steinernema_feltiae_3	NextSeq 500	paired
+Steinernema_feltiae_4	NextSeq 500	paired
+Priapulus_caudatus_1	Illumina HiSeq 2000	single
+Priapulus_caudatus_2	Illumina HiSeq 2000	single
+Xenopus_tropicalis_1	Illumina HiSeq 2000	paired
+Xenopus_tropicalis_2	Illumina HiSeq 2000	paired
+Hypsibius_dujardini_1	NextSeq 500	single
+Hypsibius_dujardini_2	NextSeq 500	single
+Hypsibius_dujardini_3	NextSeq 500	single
+Hypsibius_dujardini_4	NextSeq 500	single
+Ciona_intestinalis_1	Illumina HiSeq 2000	paired
+Ciona_intestinalis_2	Illumina HiSeq 2000	paired
+Heliocidaris_erythrogramma_1	Illumina HiSeq 2000	paired
+Heliocidaris_erythrogramma_2	Illumina HiSeq 2000	paired
+Heliocidaris_erythrogramma_3	Illumina HiSeq 2000	paired
+Heliocidaris_tuberculata_1	Illumina HiSeq 2000	paired
+Heliocidaris_tuberculata_2	Illumina HiSeq 2000	paired
+Heliocidaris_tuberculata_3	Illumina HiSeq 2000	paired
+Lytechinus_variegatus_1	Illumina HiSeq 2000	paired
+Lytechinus_variegatus_2	Illumina HiSeq 2000	paired
+Lytechinus_variegatus_3	Illumina HiSeq 2000	paired
+Mesocentrotus_franciscanus_1	Illumina HiSeq 4000	paired
+Mesocentrotus_franciscanus_2	Illumina HiSeq 4000	paired
+Mesocentrotus_franciscanus_3	Illumina HiSeq 4000	paired
+Mnemiopsis_leidyi_1	Illumina HiSeq 2000	single
+Mnemiopsis_leidyi_2	Illumina HiSeq 2000	single
+Mnemiopsis_leidyi_3	Illumina HiSeq 2000	single
+Mnemiopsis_leidyi_4	Illumina HiSeq 2000	single
+Montipora_capitata_1	Illumina HiSeq 4000	paired
+Montipora_capitata_2	Illumina HiSeq 4000	paired
+Montipora_capitata_3	Illumina HiSeq 4000	paired
+Paracentrotus_lividus_1	Illumina HiSeq 2500	single
+Paracentrotus_lividus_2	Illumina HiSeq 2500	single
+Paracentrotus_lividus_3	Illumina HiSeq 2500	single
+Patiria_miniata_1	Illumina HiSeq 2500	single
+Patiria_miniata_2	Illumina HiSeq 2500	single
+Patiria_miniata_3	Illumina HiSeq 2500	single
+Platynereis_dumerilii_1	Illumina HiSeq 2000	paired
+Platynereis_dumerilii_2	Illumina HiSeq 2000	paired
+Platynereis_dumerilii_3	Illumina HiSeq 2000	paired
+Platynereis_dumerilii_4	Illumina HiSeq 2000	paired
+Platynereis_dumerilii_5	Illumina HiSeq 2000	paired
+Platynereis_dumerilii_6	Illumina HiSeq 2000	paired
+Platynereis_dumerilii_7	Illumina HiSeq 2000	paired
+Sus_scrofa_1	HiSeq X Ten	paired
+Sus_scrofa_2	HiSeq X Ten	paired
+Sus_scrofa_3	HiSeq X Ten	paired
+Terebratalia_transversa_1	Illumina HiSeq 2000	single
+Terebratalia_transversa_2	Illumina HiSeq 2000	single
