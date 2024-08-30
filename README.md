@@ -2,6 +2,8 @@
 
 Scripts used for _de novo_ assemblies can be found in the `Assemblies/` directory. These scripts contain the commands used for single-end read data and paired-end data, also a script used iteratively for each species for running EviGene. Finally an R script can be found for generating a BUSCO analysis figure.
 
+>__Note__: please adjust the paths towards all data/scripts according to your own setup. 
+
 A separate R script (`functions.R`) is included, which contains custom functions used throughout the analysis. 
 
 The previous directory can be used separately with the appropriate data. 
@@ -39,5 +41,3 @@ Parameters are analysed separately using the `model_param_analysis.R` script.
 ## Data availability
 
 Intermediate datasets can be accessed on [Zenodo](https://zenodo.org/records/8374018).
-
-__Note__: please adjust the paths towards all data/scripts according to your own setup. 
